@@ -1,0 +1,5 @@
+edit the score-board styling
+
+count for last index should immediately increased then the message should appear
+
+improve the styling of the page 

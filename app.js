@@ -18,7 +18,7 @@ const genCompChoice = () => {
 const drawGame = () => {
   drawCount++;
   drawCountPara.innerText = drawCount;
-  msg.innerText = "Game was Draw. Play again.";
+  msg.innerText = "Draw!";
   msg.style.backgroundColor = "#081b31";
 };
 
@@ -74,7 +74,7 @@ choices.forEach((choice) => {
     i++;
     if(i>5){
       if(userScore>compScore){
-        alert("Hurry! You won.")
+        alert("Congratulations! You beat computer.")
       }else if(userScore === compScore){
         alert("Match is tied:)")
       }else{
